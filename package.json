@@ -14,7 +14,6 @@
     "apollo": "./packages/apollo/bin/run"
   },
   "scripts": {
-    "postinstall": "lerna run prepare",
     "build": "lerna run build",
     "lint": "prettier --list-different \"packages/*/src/**/*.{js,jsx,ts,tsx}\"",
     "lint-fix": "prettier --write \"packages/*/src/**/*.{js,jsx,ts,tsx}\"",
